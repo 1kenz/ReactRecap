@@ -1,5 +1,12 @@
 import React from 'react';
+import ProductList from '../pages/ProductList';
+import Categories from './Categories';
 
 export default function Dashboard() {
-    return <div>Dashboard</div>;
+    return (
+        <div>
+            <Categories />
+            <ProductList />
+        </div>
+    );
 }

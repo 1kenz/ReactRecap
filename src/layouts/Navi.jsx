@@ -5,7 +5,7 @@ import CartSummary from './CartSummary';
 export default function Navi() {
     return (
         <div>
-            <Menu size="big" inverted fixed>
+            <Menu size="big" inverted fixed="top">
                 <Container>
                     <Menu.Item name="home" />
                     <Menu.Item name="messages" />
